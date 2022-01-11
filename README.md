@@ -16,6 +16,22 @@
 
 ![reques-pull](./source/reques-pull.png)
 
+## 2.How to merge dev the branch to the specific branch
+
+### 2.1 It needs to commit the dev branch to location
+
+### 2.2 Should pull the dev branch from remote to identify whether some update on current branch
+
+### 2.3 Switch to the specific branch[aim branch]
+
+### 2.4 Use git merge command + dev branch to merge the dev to the aim branch
+
+
+
+
+
+
+
 
 
 
