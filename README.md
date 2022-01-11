@@ -10,7 +10,13 @@
 
  ### 1.4 Commit  the new Branch in location
 
-### 1.5
+### 1.5 Directly Request a Pull Request when the local branch is pushed to remote
+
+### 1.6 Merge the branch by the request pull function of github
+
+![reques-pull](./source/reques-pull.png)
+
+
 
 
 
