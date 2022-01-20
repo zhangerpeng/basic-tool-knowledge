@@ -230,6 +230,84 @@ Erpengs-MacBook-Pro:git-learn erpeng.zhang$
 
 ```
 
+### ■ merge instance which needs  to clearly  clarify
+
+merge command
+
+Use merge command can acomplish code synchoronized
+
+Usually. there are two requirements to complete
+
+Precondition:
+
+it is important to recognize aim branch when excute merge command
+
+#### the one is that merge one branch to master
+
+##### Setp 1:
+
+Ensure the current branch is one branch
+
+if the current branch is not one branch.use the switch command to change head  ponit to one branch.
+
+```git
+git switch xxx-branch// 切换分支
+git branch// 查看当前的指针是否指向xxx-branch
+```
+
+##### Step 2:
+
+To use pull command to ensure local one branch is up to date
+
+ Step:
+
+Switch branch to the aim master
+
+Use pull command to make sure master is up to date
+
+```git
+git switch master// change the branch point to master
+git pull 
+```
+
+##### Setp3:
+
+use merge command to snychronize code
+
+```
+git merge xxx-branch // to merge xxx-branch into master
+```
+
+
+
+### ■ To delete the commit 
+
+There are two commands can revoke the action
+
+#### The one is reset
+
+About resset command it has three optionnal paramter
+
+--soft  
+
+--mixed
+
+--hard  
+
+```
+git reset --hard HEAD^
+or
+git reset --hard commit id
+```
+
+
+
+#### The other one is revert
+
+git revert will create a new commit  that undoes the changes from a previous commit
+
+
+
 
 
 
